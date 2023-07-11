@@ -89,20 +89,13 @@ def export_channels(channel_dict, export_file):
                         "channel_id": channel_id,
                         "channel_name": channel_name + "  " + identif}
         channel_list.append(channel_info)
+
+    # CANALES AÑADIDOS FUERA DE elcano
     channel_list.append({'group_title': 'DAZN F1', 'tvg_id': '','logo': 'https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/012018/untitled-1_20.png?An9Fa1zRO4z6Dj__EVR4da6YOWsvtEw2&itok=6PiLMTa5', 'channel_id': 'https://www.f1-tempo.com/', 'channel_name': 'F1 Tempo Telemetría'})
     #channel_list.append({'group_title': 'DAZN F1', 'tvg_id': 'DAZN F1 HD', 'logo': 'https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/012018/untitled-1_20.png?An9Fa1zRO4z6Dj__EVR4da6YOWsvtEw2&itok=6PiLMTa5', 'channel_id': 'dd7c34f04c96253ac10922e7759c8ebbb484a100', 'channel_name': 'F1 Multicámara by Álex'})
     channel_list.append({'group_title': 'electroperra', 'tvg_id': 'HISTORIA', 'logo': 'https://www.movistarplus.es/recorte/m-NEO/canal/HIST.png', 'channel_id': 'http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55609&extension=ts&play_token=ltn2GgE1z6', 'channel_name': 'Historia'})
     channel_list.append({'group_title': 'electroperra', 'tvg_id': 'NAT GEO WILD HD', 'logo': 'https://www.movistarplus.es/recorte/m-NEO/canal/NATGW.png', 'channel_id': 'http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55611&extension=ts&play_token=ltn2GgE1z6', 'channel_name': 'Nat Geo Wild'})
     channel_list.append({'group_title': 'electroperra', 'tvg_id': 'NAT GEO HD', 'logo': 'https://www.movistarplus.es/recorte/m-NEO/canal/NATGEO.png', 'channel_id': 'http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55613&extension=ts&play_token=ltn2GgE1z6', 'channel_name': 'National Geographic'})
-
-    ##EXTINF:-1 group-title="M+ StbEmu" tvg-id="HISTORIA" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/HIST.png" ,Historia
-#http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55609&extension=ts&play_token=ltn2GgE1z6
-    ##EXTINF:-1 group-title="M+ StbEmu" tvg-id="NAT GEO WILD HD" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/NATGW.png" ,Nat Geo Wild
-#http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55611&extension=ts&play_token=ltn2GgE1z6
-    ##EXTINF:-1 group-title="M+ StbEmu" tvg-id="NAT GEO HD" tvg-logo="https://www.movistarplus.es/recorte/m-NEO/canal/NATGEO.png" ,National Geographic
-#http://mol-2.com:8080/play/live.php?mac=00:1A:79:C3:AF:36&stream=55613&extension=ts&play_token=ltn2GgE1z6
-    
-
 
     all_channels = ""
     all_channels += '#EXTM3U url-tvg="https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guia.xml, https://raw.githubusercontent.com/acidjesuz/EPG/master/guide.xml"\n'
