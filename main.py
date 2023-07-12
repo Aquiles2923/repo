@@ -91,7 +91,7 @@ def export_channels(channel_dict, export_file):
                         "tvg_id": tvg_id,
                         "logo": logo,
                         "channel_id": channel_id,
-                        "channel_name": channel_name + "  " + identif}
+                        "channel_name": channel_name + "  " + '\x1B[3m' + identif + '\x1B[0m'}
         channel_list.append(channel_info)
 
     # CANALES AÑADIDOS FUERA DE elcano
