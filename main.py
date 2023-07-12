@@ -128,10 +128,10 @@ def export_channels(channel_dict, export_file):
         all_channels_get = all_channels.replace("acestream://", "http://127.0.0.1:6878/ace/getstream?id=")
 
 
-        with open(export_file, "w") as f:
-            f.write(all_channels)
+        with open(export_file, "w") as fb:
+            fb.write(all_channels)
             print("exportChannels : OK : list exported to Github")
-            f.close()
+            fb.close()
 
         with open("kodi.txt", "w") as k:
             k.write(all_channels_kodi)
