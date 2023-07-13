@@ -126,6 +126,12 @@ def extract_tvg_id(channel_title):
         elif "LIGA" in title:
                         if "2" in title:
                                 return 'DAZN LaLiga 2 HD'
+                        elif "3" in title:
+                                return 'DAZN LaLiga 3 HD'
+                        elif "4" in title:
+                                return 'DAZN LaLiga 4 HD'
+                        elif "5" in title:
+                                return 'DAZN LaLiga 5 HD'
                         else:
                                 return 'DAZN LaLiga HD'
         else:
