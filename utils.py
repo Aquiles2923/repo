@@ -19,6 +19,7 @@ tvg_ids_logos = {'GOL MUNDIAL HD': 'https://i.postimg.cc/3ryZ9n8G/golmundial.png
                  'M+ Deportes 4': 'https://img.sport-tv-guide.live/images/tv-station-movistar-deportes-364.png',
                  'M+ Deportes 5': 'https://img.sport-tv-guide.live/images/tv-station-movistar-deportes-364.png',
                  'M+ Deportes 6': 'https://img.sport-tv-guide.live/images/tv-station-movistar-deportes-364.png',
+                 'M+ Deportes 7': 'https://img.sport-tv-guide.live/images/tv-station-movistar-deportes-364.png',
                  'M+ Golf HD': 'https://img.sport-tv-guide.live/images/tv-station-movistar-golf-368.png',
                  'M+ LaLiga TV HD': 'https://telegra.ph/file/87a4c3d008b086629d093.jpg',
                  'M+ LaLiga TV 2 HD': 'https://telegra.ph/file/5c77da09724e53af96832.jpg',
