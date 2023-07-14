@@ -126,6 +126,8 @@ def export_channels(channel_dict, export_file):
         
         all_channels_kodi = all_channels.replace("acestream://", "plugin://script.module.horus?action=play&id=")
         all_channels_get = all_channels.replace("acestream://", "http://127.0.0.1:6878/ace/getstream?id=")
+        all_channels_int = all_channels.replace("acestream://", "http://192.168.xxx.xxx/ace/getstream?id=")
+
 
 
         with open(export_file, "w") as f:
@@ -142,6 +144,11 @@ def export_channels(channel_dict, export_file):
             g.write(all_channels_get)
             print("exportChannels : OK : get list exported to Github")
             g.close()
+            
+        with open("int.txt", "w") as int:
+            int.write(all_channels_int)
+            print("exportChannels : OK : int list exported to Github")
+            int.close()
             
     else:
         print("exportChannels : ERROR : list is empty")
