@@ -126,7 +126,7 @@ def export_channels(channel_dict, export_file):
         
         all_channels_kodi = all_channels.replace("acestream://", "plugin://script.module.horus?action=play&id=")
         all_channels_get = all_channels.replace("acestream://", "http://127.0.0.1:6878/ace/getstream?id=")
-        all_channels_int = all_channels.replace("acestream://", "http://192.168.xxx.xxx/ace/getstream?id=")
+        all_channels_int = all_channels.replace("acestream://", "http://192.168.1.90:8008/ace/getstream?id=")
 
 
 
