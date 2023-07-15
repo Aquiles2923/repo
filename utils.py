@@ -191,7 +191,7 @@ def extract_tvg_id(channel_title):
     elif "VAMOS" in title:
         return 'M+ #Vamos HD'
     elif "GOLF" in title:
-        if "MEX" in title:
+        if "CHANNEL" in title:
             return "Golf Channel"
         else:
             return 'M+ Golf HD'
