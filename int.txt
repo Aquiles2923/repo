@@ -109,7 +109,7 @@ http://192.168.1.90:8008/ace/getstream?id=8587ed8ac36ac477e1d4176d3159a38bd154d4
 http://192.168.1.90:8008/ace/getstream?id=2448f1d084f440eed2fbe847e24f1c02f5659a78
 #EXTINF:-1 group-title="M+ Deportes" tvg-id="M+ Golf HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-movistar-golf-368.png" ,M. Golf 1080  4f94
 http://192.168.1.90:8008/ace/getstream?id=4f945b0ba4206fa2676b61e9eaa465ac3dcc8122
-#EXTINF:-1 group-title="M+ Deportes" tvg-id="M+ Golf HD" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-movistar-golf-368.png" ,Golf Channel 720  9a4f
+#EXTINF:-1 group-title="M+ Deportes" tvg-id="Golf Channel" tvg-logo="https://telegra.ph/file/13e3b23de6970d4d85bc5.png" ,Golf Channel 720  9a4f
 http://192.168.1.90:8008/ace/getstream?id=9a4f3ae6563668b7709dac509dedc709441b3fd9
 #EXTINF:-1 group-title="M+ LaLiga BAR" tvg-id="LaLiga TV BAR HD" tvg-logo="https://i.ibb.co/ykCff9y/La-Liga-Bar.jpg" ,LaLiga TV Bar 1080  aa82
 http://192.168.1.90:8008/ace/getstream?id=aa82e7d4f03061f2144a2f4be22f2e2210d42280
@@ -153,13 +153,13 @@ http://192.168.1.90:8008/ace/getstream?id=f8cb9d9e3077eb3ae417b2d95a69c5f590760e
 http://192.168.1.90:8008/ace/getstream?id=41af6926a6010b68ba2540975761436bb077748f
 #EXTINF:-1 group-title="Otros deportes" tvg-id="Barcelona TV" tvg-logo="https://img.sport-tv-guide.live/images/tv-station-barca-tv-1456.png" ,Barça 720  e336
 http://192.168.1.90:8008/ace/getstream?id=e3362507e7c732b9461bd7bdc74bd054c49b3ba7
-#EXTINF:-1 group-title="Otros deportes" tvg-id="I249.19158.schedulesdirect.org" tvg-logo="https://telegra.ph/file/1c26a0d324322f91a369e.jpg" ,ESPN COLOMBIA  2492
+#EXTINF:-1 group-title="Otros deportes" tvg-id="I896.110964.schedulesdirect.org" tvg-logo="" ,ESPN COLOMBIA  2492
 http://192.168.1.90:8008/ace/getstream?id=2492f8aa7cd7c4800e7b22c4ecba05e34c18be00
 #EXTINF:-1 group-title="Otros deportes" tvg-id="I898.65930.schedulesdirect.org" tvg-logo="https://telegra.ph/file/08927c1764c7fe25def94.jpg" ,ESPN EXTRA COLOMBIA   9c3f
 http://192.168.1.90:8008/ace/getstream?id=9c3feb380cd9bcf9dcb7a9454ca8eb7962201612
-#EXTINF:-1 group-title="Otros deportes" tvg-id="I254.37747.schedulesdirect.org" tvg-logo="https://telegra.ph/file/e1e320f40b02ae8d04797.jpg" ,ESPN 2 COLOMBIA  e40b
+#EXTINF:-1 group-title="Otros deportes" tvg-id="I895.96876.schedulesdirect.org" tvg-logo="" ,ESPN 2 COLOMBIA  e40b
 http://192.168.1.90:8008/ace/getstream?id=e40b29774fdfd953751a71f5695f647726623b9d
-#EXTINF:-1 group-title="Otros deportes" tvg-id="I261.79042.schedulesdirect.org" tvg-logo="https://telegra.ph/file/2ec81705d153bf37a667e.jpg" ,ESPN 3 COLOMBIA  b97f
+#EXTINF:-1 group-title="Otros deportes" tvg-id="I897.79049.schedulesdirect.org" tvg-logo="" ,ESPN 3 COLOMBIA  b97f
 http://192.168.1.90:8008/ace/getstream?id=b97f5975dbd067655432512d4693b417bc85a714
 #EXTINF:-1 group-title="Otros deportes" tvg-id="SETANTA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6gKALgnJ-yAuP-WEwXAioFZ98lGiaiOvaAh4JN4q8umxsMxiylU-meSp8jCuVfpcevcU&usqp=CAU" ,SETANTA SPORTS 1080  7206
 http://192.168.1.90:8008/ace/getstream?id=72066549fbfd3f755853fe9467586b7debf01f60
