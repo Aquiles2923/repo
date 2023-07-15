@@ -66,11 +66,11 @@ tvg_ids_logos = {'GOL MUNDIAL HD': 'https://i.postimg.cc/3ryZ9n8G/golmundial.png
                  'I873.76943.schedulesdirect.org': 'https://i.imgur.com/XcjYBfj.png',
                  'M+ Ellas #V HD': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJqKK0A9bLjjrmoL23GSawBsgag9Q63grvjKwmRoKfHseFfXcmzHs8JCUlWJ-yyDLWnTw&usqp=CAU',
                  #ESPN COLOMBIA
-                 'I249.19158.schedulesdirect.org': 'https://telegra.ph/file/1c26a0d324322f91a369e.jpg',
+                 'I896.110964.schedulesdirect.org': 'https://telegra.ph/file/1c26a0d324322f91a369e.jpg',
                  #ESPN2 COLOMBIA
-                 'I254.37747.schedulesdirect.org': 'https://telegra.ph/file/e1e320f40b02ae8d04797.jpg',
+                 'I895.96876.schedulesdirect.org': 'https://telegra.ph/file/e1e320f40b02ae8d04797.jpg',
                  #ESPN3 COLOMBIA
-                 'I261.79042.schedulesdirect.org': 'https://telegra.ph/file/2ec81705d153bf37a667e.jpg',
+                 'I897.79049.schedulesdirect.org': 'https://telegra.ph/file/2ec81705d153bf37a667e.jpg',
                  #ESPN EXTRA COLOMBIA
                  'I898.65930.schedulesdirect.org': 'https://telegra.ph/file/08927c1764c7fe25def94.jpg',
                  'FOX': 'https://img2.freepng.es/20180614/iju/kisspng-fox-broadcasting-company-logo-television-fox-inter-television-program-5b2265b47733b2.8204491215289809164883.jpg',
