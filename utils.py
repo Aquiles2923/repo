@@ -247,11 +247,11 @@ def extract_tvg_id(channel_title):
     elif "ELLAS" in title:
         return "M+ Ellas #V HD"
     elif "ESPN COLOMBIA" in title:
-        return "I249.19158.schedulesdirect.org"
+        return "I896.110964.schedulesdirect.org"
     elif "ESPN 2 COLOMBIA" in title:
-        return "I254.37747.schedulesdirect.org"
+        return "I895.96876.schedulesdirect.org"
     elif "ESPN 3 COLOMBIA" in title:
-        return "I261.79042.schedulesdirect.org"
+        return "I897.79049.schedulesdirect.org"
     elif "ESPN EXTRA COLOMBIA" in title:
         return "I898.65930.schedulesdirect.org"
     elif "TENNIS CHANNEL" in title:
