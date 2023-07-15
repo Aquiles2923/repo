@@ -68,6 +68,9 @@ def update_channel_dict(message_content, channel_dict):
                 channel_name = channel_name.replace("BarÃ§a", "Barça")
             elif "beIN SPORTS Ã±" in channel_name:
                 channel_name = channel_name.replace("beIN SPORTS Ã±", "beIN SPORTS ñ")
+            elif "GOLF" in title:
+                if "mex" in title:
+                    channel_name = channel_name.replace("mex", "Channel")
             #elif "M.L. Campeones" in channel_name:
                 #channel_name = channel_name.replace("M.L. Campeones", "M+ Liga de Campeones")
             #elif "#Vamos" in channel_name:
