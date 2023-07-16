@@ -106,12 +106,12 @@ def export_channels(channel_dict, export_file):
     all_channels = ""
     all_channels += '#EXTM3U url-tvg="https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guia.xml, https://raw.githubusercontent.com/acidjesuz/EPG/master/guide.xml"\n'
 
+    
     # DESCOMENTAR Y EDITAR LA LÍNEA ABAJO CORRESPONDIENTE AL FORMATO DESEADO PARA AÑADIR IDS PERSONALES
     #all_channels += '#EXTINF:-1 tvg-logo="https://telegra.ph/file/fba058a81f4038f75c076.jpg" ,Wimbledon 4K UHD by Álex\nacestream://3470a98b59416289f0e6d206b6979a0dc26defa8\n'
     #all_channels += '#EXTINF:-1 tvg-logo="https://telegra.ph/file/fba058a81f4038f75c076.jpg" ,Wimbledon 4K UHD by Álex\nhttp://127.0.0.1:6878/ace/getstream?id=9dad717d99b29a05672166258a77c25b57713dd5\n'
 
 
-    http://127.0.0.1:6878/ace/getstream?id=9dad717d99b29a05672166258a77c25b57713dd5
     channel_pattern = '#EXTINF:-1 group-title="GROUPTITLE" tvg-id="TVGID" tvg-logo="LOGO" ,CHANNELTITLE\nacestream://CHANNELID\n'
     channel_pattern_http = '#EXTINF:-1 group-title="GROUPTITLE" tvg-id="TVGID" tvg-logo="LOGO" ,CHANNELTITLE\nCHANNELID\n'
 
