@@ -33,7 +33,7 @@ tvg_ids_logos = {'GOL MUNDIAL HD': 'https://i.postimg.cc/3ryZ9n8G/golmundial.png
                  'LaLiga TV Hypermotion 2 HD': 'https://telegra.ph/file/9f02b0dace818a9965fab.jpg',
                  'LaLiga TV Hypermotion 3 HD': 'https://telegra.ph/file/860380255e3d72bb46049.jpg',
                  'LaLiga TV Hypermotion 4': 'https://telegra.ph/file/3f40c767141b23051112b.jpg',
-                 'LaLiga TV Hypermotion 5': 'hhttps://telegra.ph/file/adb3a978aab44127da4cf.jpg',
+                 'LaLiga TV Hypermotion 5': 'https://telegra.ph/file/adb3a978aab44127da4cf.jpg',
                  'LaLiga TV Hypermotion 6': 'https://telegra.ph/file/ef798665258120d7a4c5b.jpg',
                  'LaLiga TV Hypermotion 7': 'https://telegra.ph/file/1e9c615591ff4d9016e24.jpg',
                  'LaLiga TV Hypermotion 8': 'https://telegra.ph/file/fd25f9a86fc18baa055fa.jpg',
