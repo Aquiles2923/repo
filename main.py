@@ -111,8 +111,8 @@ def export_channels(channel_dict, export_file):
     #all_channels += '#EXTINF:-1 tvg-logo="https://logodownload.org/wp-content/uploads/2017/11/telegram-logo-0-2.png" ,HACKS LOVE + ROBOTS\nhttps://t.me/+__T5lqenMkcwMzdk\n'
     #all_channels += '#EXTINF:-1 tvg-logo="https://telegra.ph/file/fba058a81f4038f75c076.jpg" ,Wimbledon 4K UHD by Álex\nacestream://3470a98b59416289f0e6d206b6979a0dc26defa8\n'
     #all_channels += '#EXTINF:-1 tvg-logo="https://telegra.ph/file/fba058a81f4038f75c076.jpg" ,Wimbledon UHD by Ronki\nacestream://78aa81aedb1e2b6a9ba178398148940857155f6a\n'
-    all_channels += '#EXTINF:-1 tvg-id="I401.1229.tvguide.co.uk" tvg-logo="https://telegra.ph/file/fba058a81f4038f75c076.jpg" ,Sky Sports Main Event\nacestream://eab7aeef0218ce8b0752e596e4792b69eda4df5e\n'
-    all_channels += '#EXTINF:-1 tvg-logo="https://telegra.ph/file/fba058a81f4038f75c076.jpg" ,Sky Sports Arena\nacestream://d317a003e8047da2c36a2a2bb2289578c9a3b79c\n'
+    #all_channels += '#EXTINF:-1 tvg-id="I401.1229.tvguide.co.uk" tvg-logo="https://telegra.ph/file/fba058a81f4038f75c076.jpg" ,Sky Sports Main Event\nacestream://eab7aeef0218ce8b0752e596e4792b69eda4df5e\n'
+    #all_channels += '#EXTINF:-1 tvg-logo="https://telegra.ph/file/fba058a81f4038f75c076.jpg" ,Sky Sports Arena\nacestream://d317a003e8047da2c36a2a2bb2289578c9a3b79c\n'
 
     
     channel_pattern = '#EXTINF:-1 group-title="GROUPTITLE" tvg-id="TVGID" tvg-logo="LOGO" ,CHANNELTITLE\nacestream://CHANNELID\n'
