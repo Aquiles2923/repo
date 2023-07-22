@@ -1,18 +1,10 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/davidmuma/EPG_dobleM/master/guia.xml, https://raw.githubusercontent.com/acidjesuz/EPG/master/guide.xml"
-#EXTINF:-1 tvg-logo="https://telegra.ph/file/fba058a81f4038f75c076.jpg" ,Rally de Estonia by Álex
-http://192.168.1.90:8008/ace/getstream?id=4b4e4277ee6b7f3041cf7d1a708862b3330b1b4b
-#EXTINF:-1 tvg-id="I401.1229.tvguide.co.uk" tvg-logo="https://telegra.ph/file/fba058a81f4038f75c076.jpg" ,Sky Sports Main Event
-http://192.168.1.90:8008/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e
-#EXTINF:-1 tvg-logo="https://telegra.ph/file/fba058a81f4038f75c076.jpg" ,Sky Sports Arena
-http://192.168.1.90:8008/ace/getstream?id=d317a003e8047da2c36a2a2bb2289578c9a3b79c
 #EXTINF:-1 group-title="DAZN F1" tvg-id="DAZN F1 HD" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/012018/untitled-1_20.png?An9Fa1zRO4z6Dj__EVR4da6YOWsvtEw2&itok=6PiLMTa5" ,DAZN F1 1080  5789
 http://192.168.1.90:8008/ace/getstream?id=5789ca155323664edd293b848606688edf803f4d
 #EXTINF:-1 group-title="DAZN F1" tvg-id="DAZN F1 HD" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/012018/untitled-1_20.png?An9Fa1zRO4z6Dj__EVR4da6YOWsvtEw2&itok=6PiLMTa5" ,DAZN F1 1080  9dad
 http://192.168.1.90:8008/ace/getstream?id=9dad717d99b29a05672166258a77c25b57713dd5
 #EXTINF:-1 group-title="DAZN F1" tvg-id="DAZN F1 HD" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/012018/untitled-1_20.png?An9Fa1zRO4z6Dj__EVR4da6YOWsvtEw2&itok=6PiLMTa5" ,DAZN F1 720  e1fc
 http://192.168.1.90:8008/ace/getstream?id=e1fcad9de0c782c157fde6377805c58297ab65c2
-#EXTINF:-1 group-title="DAZN F1" tvg-id="DAZN F1 HD" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/012018/untitled-1_20.png?An9Fa1zRO4z6Dj__EVR4da6YOWsvtEw2&itok=6PiLMTa5" ,F1 Multicámara by Álex
-http://192.168.1.90:8008/ace/getstream?id=018186e9a5b942e3a5d8c24ca906ded64c2bbbe4
 #EXTINF:-1 group-title="DAZN F1" tvg-id="" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/012018/untitled-1_20.png?An9Fa1zRO4z6Dj__EVR4da6YOWsvtEw2&itok=6PiLMTa5" ,F1 Tempo Telemetría
 https://www.f1-tempo.com/
 #EXTINF:-1 group-title="M+ LaLiga" tvg-id="M+ LaLiga TV HD" tvg-logo="https://telegra.ph/file/87a4c3d008b086629d093.jpg" ,M. LaLiga 1080 MultiAudio  7d8c
