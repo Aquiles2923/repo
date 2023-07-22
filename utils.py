@@ -39,6 +39,7 @@ tvg_ids_logos = {'GOL MUNDIAL HD': 'https://i.postimg.cc/3ryZ9n8G/golmundial.png
                  'LaLiga TV Hypermotion 8': 'https://telegra.ph/file/fd25f9a86fc18baa055fa.jpg',
                  'LaLiga TV BAR HD': 'https://telegra.ph/file/50865c02cf7aeded848c6.jpg',
                  'M+ Liga de Campeones HD': 'https://img.sport-tv-guide.live/images/tv-station-moviestar-liga-de-campeones-1459.png',
+                 'M+ Champions Tour HD': 'https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Champions%20Tour%20HD.png',
                  'M+ Liga de Campeones 2 HD': 'https://img.sport-tv-guide.live/images/tv-station-moviestar-liga-de-campeones-2-1460.png',
                  'M+ Liga de Campeones 3 HD': 'https://img.sport-tv-guide.live/images/tv-station-movistar-liga-de-campeones-3-1548.png',
                  'M+ Liga de Campeones 4 HD': 'https://img.sport-tv-guide.live/images/tv-station-movistar-liga-de-campeones-4-1549.png',
@@ -114,7 +115,7 @@ def extract_group_title(channel_title):
         return "M+ LaLiga Hypermotion"
     elif "TV BAR" in title:
         return "M+ LaLiga BAR"
-    elif "CAMPEONES" in title:
+    elif "CAMPEONES" in title or "CHAMPIONS TOUR" in title:
         return "M+ Champions"
     #elif "MUNDIAL" in title:
         #if "2" in title:
@@ -230,11 +231,23 @@ def extract_tvg_id(channel_title):
             return "M+ Deportes 7"
         else:
             return "M+ Deportes HD"
+    elif "M+ CHAMPIONS TOUR" in title:
+        return "M+ Champions Tour HD"
     elif "CAMPEONES" in title:
-        for i in ["12", "3", "4", "5", "6", "7", "8", "9", "10", "11", "2"]:
-            if i in title:
-                return "M+ Liga de Campeones " + i +" HD"
-        return "M+ Liga de Campeones HD"
+        if "2" in title and "12" not in title:
+            return "M+ Champions Tour HD"
+        else:
+            for i in ["12", "3", "4", "5", "6", "7", "8", "9", "10", "11", "2"]:
+                if i in title:
+                    return "M+ Liga de Campeones " + i +" HD"
+            return "M+ Liga de Campeones HD"
+          
+        #for i in ["12", "3", "4", "5", "6", "7", "8", "9", "10", "11", "2"]:
+            #if i in title:
+                #return "M+ Liga de Campeones " + i +" HD"
+      
+        #return "M+ Liga de Campeones HD"
+        
     elif "NATIONAL" in title or "GEOGRAPHIC" in title or "NAT" in title or "GEO" in title:
         return 'National Geographic HD'
     elif "WILD" in title or "NATIONAL" in title or "GEOGRAPHIC" in title or "NAT" in title or "GEO" in title:
